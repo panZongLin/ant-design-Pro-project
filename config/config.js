@@ -54,31 +54,24 @@ export default defineConfig({
               path: '/welcome',
               name: 'welcome',
               icon: 'smile',
-              component: './Welcome',
+              component: './welcome',
             },
             //admin
             {
               path: '/admin',
               name: 'admin',
               icon: 'crown',
-              component: './Admin',
+              component: './user/Admin',
               authority: ['admin'],
               routes: [
                 {
                   path: '/admin/sub-page',
                   name: 'sub-page',
                   icon: 'smile',
-                  component: './Welcome',
+                  component: './user/Admin',
                   authority: ['admin'],
                 },
               ],
-            },
-            //ListTableList
-            {
-              name: 'list.table-list',
-              icon: 'table',
-              path: '/list',
-              component: './ListTableList',
             },
             //404
             {

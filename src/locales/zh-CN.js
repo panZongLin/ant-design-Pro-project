@@ -19,4 +19,7 @@ export default {
   ...settings,
   ...pwa,
   ...component,
+
+  'app.404.subTitle': '抱歉，你查看的页面不存在.',
+  'app.404.extra': '返回首页'
 };

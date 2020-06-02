@@ -1,15 +1,15 @@
 import { Button, Result } from 'antd';
 import React from 'react';
-import { history } from 'umi';
+import { history , FormattedMessage } from 'umi';
 
 const NoFoundPage = () => (
   <Result
     status="404"
     title="404"
-    subTitle="Sorry, the page you visited does not exist."
+    subTitle={<FormattedMessage id="app.404.subTitle" />}
     extra={
       <Button type="primary" onClick={() => history.push('/')}>
-        Back Home haha
+        <FormattedMessage id="app.404.extra" />
       </Button>
     }
   />

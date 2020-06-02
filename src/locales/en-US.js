@@ -19,4 +19,7 @@ export default {
   ...settings,
   ...pwa,
   ...component,
+
+  'app.404.subTitle': 'Sorry, the page you visited does not exist.',
+  'app.404.extra': 'back home',
 };
