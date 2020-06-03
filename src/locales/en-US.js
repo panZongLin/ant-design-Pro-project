@@ -22,4 +22,6 @@ export default {
 
   'app.404.subTitle': 'Sorry, the page you visited does not exist.',
   'app.404.extra': 'back home',
+  'app.403.subTitle': 'Sorry, you are not authorized to access this page.',
+  'app.403.extra': 'Go Login'
 };

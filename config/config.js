@@ -73,6 +73,13 @@ export default defineConfig({
                 },
               ],
             },
+            //tableExample
+            {
+              path: '/tableExample',
+              name: 'tableExample',
+              icon: 'crown',
+              component: './tableExample',            
+            },
             //404
             {
               component: './404',

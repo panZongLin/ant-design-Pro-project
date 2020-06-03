@@ -21,5 +21,7 @@ export default {
   ...component,
 
   'app.404.subTitle': '抱歉，你查看的页面不存在.',
-  'app.404.extra': '返回首页'
+  'app.404.extra': '返回首页',
+  'app.403.subTitle': '抱歉，你没有权限查看该页面.',
+  'app.403.extra': '去登录'
 };
