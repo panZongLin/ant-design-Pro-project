@@ -50,5 +50,6 @@ export default {
   'menu.editor.mind': '脑图编辑器',
   'menu.editor.koni': '拓扑编辑器',
 
-  'menu.tableExample': '表格示例'
+  'menu.tableExample': '表格示例',
+  'menu.tableExampleWithHooks': 'Hooks 表格示例'
 };

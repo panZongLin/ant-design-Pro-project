@@ -66,7 +66,7 @@ const Model: ModelType = {
     subscriptions: {
         setup({ dispatch, history }) {
           return history.listen(({ pathname }) => {
-            if (pathname === '/tableExample') {
+            if (pathname === '/tableExample' || pathname === '/tableExampleWithHooks') {
               dispatch({ type: 'fetch', payload: {page: 1, limit: 10} });
             }
           });

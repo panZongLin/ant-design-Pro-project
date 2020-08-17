@@ -81,6 +81,13 @@ export default defineConfig({
               icon: 'crown',
               component: './tableExample',            
             },
+            //tableExampleWithHooks
+            {
+              path: '/tableExampleWithHooks',
+              name: 'tableExampleWithHooks',
+              icon: 'crown',
+              component: './tableExample/indexWithHooks',            
+            },
             //404
             {
               component: './404',
